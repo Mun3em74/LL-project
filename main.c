@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct student {
-    char name[50];
-    int iD;
-    float marks;
-    int day;
-    int month;
-    int year;
-} s;
+#include <time.h>
 
+struct student
+    {
+     char Name[50];
+     int ID;
+     int Birth[3];
+     int Score;
+    }first_student;
 int main()
 {
-    printf("welcome to the program!\n");
-    return 0;
+printf("----------Welcome to our program----------\n");
 }
